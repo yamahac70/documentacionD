@@ -11,7 +11,7 @@ El ámbito es global cuando una variable var se declara fuera de una función. E
 var tiene un ámbito local cuando se declara dentro de una función. Esto significa que está disponible y solo se puede acceder a ella dentro de esa función.
 
 Para entenderlo mejor, mira el siguiente ejemplo.
-````
+````js
 
     var saludar = "hey, hola";
     
@@ -22,7 +22,7 @@ Para entenderlo mejor, mira el siguiente ejemplo.
 ````
 
 Aquí, saludar tiene un ámbito global porque existe fuera de la función mientras que hola tiene un ámbito local. Así que no podemos acceder a la variable hola fuera de la función. Así que si realizamos esto:
-````
+````js
     var tester = "hey, hola";
     
     function nuevaFuncion() {
@@ -34,23 +34,23 @@ Obtendremos un error que se debe a que hola no está disponible fuera de la func
 
 Las variables con var se pueden volver a declarar y modificar
 Esto significa que podemos hacer esto dentro del mismo ámbito y no obtendremos un error.
-````
+````js
     var saludar = "hey, hola";
     var saludar = "dice Hola tambien";
 ````
 y esto también
-````
+````js
     var saludar = "hey, hola";
     saludar = "dice Hola tambien";
 ````
 ## Hoisting de var
 Hoisting es un mecanismo de JavaScript en el que las variables y declaraciones de funciones se mueven a la parte superior de su ámbito antes de la ejecución del código. Esto significa que si hacemos esto:
-````
+````js
     console.log (saludar);
     var saludar = "dice hola"
 ````
 se interpreta así:
-````
+````js
     var saludar;
     console.log(saludar); // saludar is undefined
     saludar = "dice hola"
@@ -59,7 +59,7 @@ Entonces las variables con var se elevan a la parte superior de su ámbito y se 
 
 ## Problema con var
 Hay una debilidad que viene con  var. Usaré el ejemplo de abajo para explicarlo:
-````
+````js
     var saludar = "hey, hola";
     var tiempos = 4;
 

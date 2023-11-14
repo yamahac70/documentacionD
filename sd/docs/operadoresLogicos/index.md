@@ -2,7 +2,7 @@
 Este operador lógico compara dos expresiones. Si la primera se evalúa como "verdadera" (truthy), la sentencia devolverá el valor de la segunda expresión. Si la primera expresión se evalúa como "falsa"(falsy), la sentencia devolverá el valor de la primera expresión.
 
 Cuando solo se incluyen valores booleanos (true o false), se devuelve verdadero si las dos expresiones son verdaderas. Si una o ambas expresiones son falsas, la sentencia completa se devolverá como falsa.
-````
+````js
 true && true //devuelve el segundo valor, verdadero
 true && false //devuelve el segundo valor, falso
 false && false //devuelve el primer valor, falso
@@ -16,7 +16,7 @@ undefined && 'abc' //devuelve el primer valor, indefinido
 Este operador lógico compara dos expresiones. Si la primera se evalúa como "falsa", la sentencia devolverá el valor de la segunda expresión. Si la primera se evalúa como "verdadera", la sentencia devolverá el valor de la primera expresión.
 
 Cuando solo se incluyen valores booleanos (true o false), se devuelve como true si cualquiera de las dos expresiones son verdaderas. Ambas expresiones pueden ser verdaderas, pero solo se necesita una para que el resultado sea verdadero.
-````
+````js
 true || true //devuelve el primer valor, verdadero
 true || false //devuelve el primer valor, verdadero
 false || false //devuelve el segundo valor, falso
@@ -40,7 +40,7 @@ Se utiliza un símbolo "!" (signo de exclamación) para representar un operador 
 Usos del operador NOT
 Convertir la expresión en un booleano.
 Devolver el valor contrario del booleano obtenido en el último paso.
-````
+````js
 var spam = 'rinki'; //spam puede ser igual a cualquiera de las cadenas de texto no vacías
 var booSpam = !spam;
 /*devuelve falso
@@ -56,7 +56,7 @@ var booSpam2 = !spam2;
 Consejo:
 
 Ambos operadores lógicos devolverán el valor de la última expresión. Por ejemplo:
-````
+````js
 "gato" && "perro" //devuelve "perro"
 "gato" && false //devuelve falso
 0 && "gato"  //devuelve 0 (que es un valor falso)

@@ -18,10 +18,17 @@ export default defineConfig({
                 ]
             },
             {
-                text:"Operadores Logicos",
+                text:"Operadores",
                 items:[
+                    { text: 'Tipos de datos', link: '/operadoresLogicos/tiposDatos.md' },
+                    { text: 'Operadores Aritmeticos', link: '/operadoresLogicos/aritmeticos.md' },
+                    { text: 'Operadores de Asignación', link: '/operadoresLogicos/asignacion.md' },
+                    { text: 'Operadores de Cadenas|String', link: '/operadoresLogicos/cadenas.md' },
+                    { text: 'Operadores de Comparación', link: '/operadoresLogicos/comparacion.md' },
+                    { text: 'Operadores Especiales', link: '/operadoresLogicos/especiales.md' },
+                    { text: 'Tipo de datos de objeto en JavaScript', link: '/operadoresLogicos/objetos.md' },
                     { text: 'Operadores Logicos', link: '/operadoresLogicos/index.md' },
-                    { text: 'Conclución', link: '/operadores_logicos/conclucion.md' },
+                    { text: 'Conclución', link: '/operadoresLogicos/conclucion.md' },
                 ]
             }
         ]
