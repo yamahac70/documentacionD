@@ -3,3 +3,10 @@ Y llegamos al final del artículo. Tal como comentamos. JavaScript es uno de los
 
 Espero que este artículo te ayude a entender cómo funciona JavaScript bajo el capó. No te olvides de dejar tus comentarios y compartir este artículo si te ha gustado en tus redes sociales.
 [Fuente](https://ifgeekthen.nttdata.com/es/tipos-de-datos-y-operadores-en-javascript)
+
+--------------
+## METODOS
+
+- [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator) 
+- [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__defineGetter__)
+- [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/EPSILON)
